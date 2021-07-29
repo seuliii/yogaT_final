@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">yogat</string>
+
+    <!--요가 자세 이름-->
+    <string-array name="pose_array">
+        <item>bridge</item>
+        <item>balancing_table</item>
+        <item>chair</item>
+        <item>cobra</item>
+        <item>cow</item>
+        <item>dog</item>
+        <item>fish</item>
+        <item>half_split</item>
+        <item>king_dancer</item>
+        <item>pigeon</item>
+        <item>warrior</item>
+    </string-array>
+
+
+    <string name="hint_id">ID를 입력하세요</string>
+    <string name="hint_password">패스워드를 입력하세요</string>
+    <string name="hint_name">이름</string>
+    <string name="hint_mobileNO">휴대폰번호를 입력하세요</string>
+    <string name="hint_email">이메일을 입력하세요</string>
+    <string name="btn_login">로그인</string>
+    <string name="btn_register">회원가입</string>
+    <string name="btn_logout">로그아웃</string>
+    <string name="hint_birth">생년월일</string>
+    <string name="hint_password_confirmation">패스워드를 재확인하세요</string>
+    <string name="underlined_dynamic_text"><u>회원가입</u></string>
+
+
+
+    <string name="cat">
+        어깨 아래 손목, 골반 아래 무릎에 오도록 테이블 자세를 합니다.
+        척추를 동그랗게 말며 복부를 윗 쪽으로 끌어당기며, 꼬리뼈는 아래로 내립니다.
+        정수리는 아래 쪽을 향하고, 턱과 쇄골은 가까워집니다.
+        시선은 배꼽을 바라봅니다.
+    </string>
+
+    <string name = "dog">
+        어깨 아래 손목, 골반 아래 무릎에 오도록 테이블 자세를 합니다
+        두 팔을 매트 앞쪽으로 뻗으며 상체를 숙입니다.
+        골반과 무릎이 일직선이 되도록 하고 가슴을 바닥에 댑니다.
+        목을 늘리며 턱을 바닥에 댑니다
+    </string>
+
+    <string name = "cobra">
+        바닥에 엎드립니다.
+        다리를 고올반간격으로 벌리고 발 등을 바닥에 댑니다.
+        두 손은 가슴 옆을 짚습니다.
+        손바닥으로 바닥을 밀어내며 가슴을 들어올립니다.
+        어깨와 귀가 멀어지도록 합니다
+    </string>
+
+    <string name = "downDog">
+        손과 발을 바닥에 대고 몸을 삼각형 모양으로 만듭니다.
+        꼬리뼈를 천장으로 높게 들어올리며, 손목부터 꼬리뼈까지 몸을 길게 늘리며 곧게 뻗습니다.
+        두 팔의 힘을 사용해 바닥을 밀어내고 손가락은 넓게 펼칩니다.
+        가능한만큼 발 뒷꿈치를 바닥으로 내려, 다리 뒷면인 햄스트링, 종아리, 아킬레스건을 지나 발 뒷꿈치까지 하체 전체를 길게 늘립니다.
+        시선은 발 또는 정강이를 바라봅니다
+    </string>
+
+    <string name = "bridge">
+        등을 바닥에 대고 누운 상태에서 다리를 골반 넓이로 벌립니다.
+        엉덩이를 바닥에서 들어올리고 흉곽 또한 하늘을 향해 들어올립니다.
+        두 팔은 옆구리 옆에 두거나 두 손을 모아 깍지를 껴도 좋습니다.
+        시선은 무릎 너머 또는 윗쪽을 바라봅니다
+    </string>
+
+    <string name = "pigeon">
+        다운독 자세에서 한 다리를 접어 매트 바닥에 내려놓습니다.
+        접힌 앞쪽 다리의 발을 사타구니 가까이에 놓습니다.
+        뒷 다리는 길게 늘리고 무릎과 발등 정면이 매트에 닿도록 합니다.
+        두 손은 다리 옆에 놓고 바닥을 짚습니다.
+        흉곽은 들어올리고 쇄골뼈가 멀어지게 하며 가슴이 열릴 수 있게 어깨를 열어줍니다.
+    </string>
+
+    <string name = "triangle">
+        다운 독 자세에서 왼 발을 매트 앞쪽, 양손사이로 가져오고 오른발은 회전시킵니다.
+        두 다리를 쭉 편 후 상체를 숙이며, 배와 허벅지를 가깝게 가져옵니다.
+        두 손바닥은 바닥에 댑니다.
+        왼 쪽다리가 앞에 있었다면, 척추를 왼쪽으로 비틀어 가슴이 왼쪽을 향하도록 합니다.
+        골반이 비틀리지 않게 주의하며, 골반 중립상태를 유지합니다.
+        오른 손은 왼발 바깥쪽을 짚습니다.
+        반대편인 오른 팔은 하늘을 향해 들어올리고 시선은 윗쪽을 향합니다,
+    </string>
+
+    <string name = "kingDancer">
+        일어선 자세에서 한쪽 무릎을 접어, 같은 쪽 손으로 잡습니다.
+        발등을 잡아 중심을 잡습니다.
+        반대쪽 팔은 하늘을 향해 들어올렸다가, 그대로 천천히 상체를 숙이며 앞으로 뻗습니다.
+    </string>
+
+    <string name = "cow">
+        어깨 아래 손목, 골반 아래 무릎에 오도록 테이블 자세를 합니다
+        복부를 아래로 낮추며 흉곽은 위로 들어올립니다.
+        머리와 꼬리뼈를 위로 들어올립니다.
+        시선은 윗쪽을 바라보고 쇄골뼈가 멀어지도록 하며 가슴을 활짝 엽니다.
+    </string>
+
+    <string name = "plank">
+         손바닥을 바닥에 댄 플랭크 자세를 합니다.
+        팔뚝을 바닥에 내려 팔꿈치가 어깨 바로 아래에 오도록 합니다.
+        두 손은 팔꿈치와 평행인 상태로 놓습니다.
+        손바닥을 맞대거나 깍지를 껴도 좋습니다.
+        팔뚝으로 바닥을 힘있게 밀어내며 복부는 척추쪽으로 끌어당겨 코어의 힘을 채웁니다.
+        엉덩이가 위로 들리지 않도록 척추에서 발 뒷꿈치까지 길게 늘리며 두 다리도 힘있게 뒤로 뻗습니다.
+        시선은 매트의 앞쪽을 향하며 목이 꺾이지 않도록 주의합니다.
+
+    </string>
+
+    <string name = "sidePlank">
+        두 손은 어깨넓이, 두 발은 골반 넓이 간격을 유지한 채 바닥을 단단하게 지탱합니다.
+        머리에서 발끝까지 척추를 곧게 뻗어 몸을 길게 늘립니다.
+        배가 아래로 쳐지지 않도록 윗쪽으로 끌어당겨 코어근육을 활성화시킵니다.
+        손가락을 넓게 편 상태에서 반대쪽 팔은 하늘로 뻗습니다.
+        발목은 당긴 상태에서 한 발을 다른 발 위에 얹습니다.
+        옆구리와 골반을 최대한 윗쪽으로 높게 들어올립니다.
+        복부 근육을 사용하여 어깨 관절에 힘이 너무 많이 실리지 않도록 합니다.
+        시선은 손끝을 바라보아도 좋고 바닥을 바라보아도 좋습니다
+    </string>
+
+    <string name = "chair">
+        두 발을 주먹 하나가 들어갈 정도의 간격으로 바닥에 대고 일어선 자세에서 합장을 합니다.
+        무릎을 굽혀 엉덩이를 낮추며 두 팔은 하늘을 향해 길게 뻗습니다.
+        엉덩이를 뒤로 밀며 발등이 보이도록 합니다.
+        복부를 척추 쪽으로 끌어당겨 코어의 힘을 단단하게 채웁니다.
+        시선은 앞쪽을 바라보거나 손을 바라봅니다
+    </string>
+
+    <string name = "camel">
+        무릎을 꿇은 자세에서 엉덩이를 들어올립니다.
+        다리는 골반 간격으로 벌리고 정강이를 바닥에 댑니다.
+        꼬리뼈를 말면서 괄약근을 살짝 조입니다.
+        골반과 무릎은 일직선이 되도록 하고 무리가 가지 않도록
+        손은 엉덩이를 짚어 천천히 흉곽을 들어올립니다.
+        가슴을 하늘을 향해 들어올립니다.
+        두 팔은 길게 늘어뜨려 발 뒷꿈치를 잡습니다
+        목을 길게 늘리고 머리를 뒤쪽으로 떨어뜨립니다.
+        손으로 발 뒷꿈치를 잡는 것이 어렵다면 발끝을 세워서 진행해도 좋습니다.
+    </string>
+    <string name = "balancing_table">
+        어깨 아래 손목, 골반 아래 무릎에 오도록 테이블 자세를 합니다.
+        한 팔과 반대편 다리를 들어올려 앞뒤로 곧게 뻗습니다.
+
+    </string>
+    <string name = "warrior">
+        선 자세에서 앞다리와 뒷 다리를 넓게 벌립니다.
+        앞으로 뻗은 다리는 90도 접어, 무릎이 발목 바로 위에 오도록 섭니다.
+        뒤로 뻗은 다리는 회전시킵니다.
+        두 팔은 양 옆으로 뻗습니다.
+    </string>
+
+
+
+    <string name="cat_benefit">
+        척추를 늘려 등과 목을 편안하게 합니다
+    </string>
+    <string name="dog_benefit">
+        팔, 어깨, 목을 비롯해 척추를 늘립니다.
+        굽은 어깨, 굽은 등으로 인한 통증 완화에 좋습니다.
+    </string>
+    <string name="cobra_benefit">
+        복부와 가슴을 늘리고 척추를 유연하고 강하게 합니다.
+    </string>
+    <string name="dowDog_benefit">
+        햄스트링과 종아리를 늘려 하체의 혈액순환을 돕습니다.
+    </string>
+    <string name="bridge_benefit">
+        복부기관을 자극하고 하체를 튼튼하게 합니다
+    </string>
+    <string name="pigeon_benefit">
+        복부기관을 자극하여 소화를 돕습니다
+    </string>
+    <string name="triangle_benefit">
+        척추를 건강하게 하고 하체 혈액순환을 향상시키는데 좋습니다.
+    </string>
+    <string name="kingDancer_benefit">
+        복부와 가슴, 어깨 주변의 근육을 늘리고 척추를 유연하고 강하게 합니다.
+    </string>
+    <string name="cow_benefit">
+        척추를 유연하게 하고 혈액순환을 돕습니다.
+    </string>
+    <string name="plank_benefit">
+        팔, 어깨, 옆구리, 복부, 다리의 근육을 비롯한 몸 전체를 강화시킵니다.
+    </string>
+    <string name="chair_benefit">
+        복부의 힘을 강화시키고 팔을 탄력 있게 만듭니다.
+    </string>
+    <string name="camel_benefit">
+        척추를 유연하게 하며 복부 내장기관을 활성화시킵니다.
+    </string>
+
+
+</resources>

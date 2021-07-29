@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mapper.message">
+	<resultMap type="messageVO" id="messageResult">
+		<result property="id" column="Message_Id" />
+		<result property="guestName" column="Guest_Name" />
+		<result property="password" column="Password" />
+		<result property="message" column="Message" />
+	</resultMap>
+
+
+	<insert id="insertMessage" parameterType="MessageVO">
+		<![CDATA[
+			insert into guestbook_message (guest_name, password,message) values (#{guestName},#{password},#{message})
+		]]>
+	</insert>
+
+	<select id="selectMessage" parameterType="int"  resultMap="messageResult">
+		<![CDATA[
+			select * from guestbook_message where message_id=#{id}
+		]]>
+	</select>
+
+	<select id="countMessage"  resultType="int">
+		<![CDATA[
+			select count(*) from guestbook_message 
+		]]>
+	</select>
+
+	<select id="selectAllMessages"  resultMap="messageResult"  parameterType="pageVO">
+		<![CDATA[
+			select * from guestbook_message order by message_id desc limit ${firstRow},#{endRow}  
+		]]>
+	</select>
+	
+	<delete  id="deleteMessage"  parameterType="int">
+		<![CDATA[
+			delete from guestbook_message where message_id=#{id}
+		]]>
+	</delete>
+
+
+	
+</mapper>

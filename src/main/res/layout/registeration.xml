@@ -1,0 +1,170 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/floralwhite"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/eulyoo1945semibold"
+        android:text="회원가입"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/input_register_bg"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="30dp"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint" />
+
+
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/input_register_bg"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint" />
+
+    <EditText
+        android:id="@+id/et_passconf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/input_register_bg"
+        android:hint="@string/hint_password_confirmation"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint" />
+
+
+    <TextView
+        android:id="@+id/checkPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"
+        android:background="@color/input_register_bg"
+        android:padding="10dp"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint" />
+
+    <Button
+        android:id="@+id/btn_pass_conf"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_bg_round2"
+        android:layout_marginTop="335dp"
+        android:layout_marginLeft="265dp"
+        android:textColor="@color/dimgray"
+        android:fontFamily="@font/bmyeonsung_ttf"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="확인" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="435dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/input_register_bg"
+        android:hint="@string/hint_name"
+        android:inputType="textCapWords"
+        android:padding="10dp"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint" />
+
+
+    <TextView
+        android:id="@+id/et_birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="435dp"
+        android:background="@color/input_register_bg"
+        android:hint="@string/hint_birth"
+        android:inputType="text"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint" />
+    <TextView
+        android:id="@+id/txt_birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="218dp"
+        android:background="@color/input_register_bg"
+        android:inputType="text"
+        android:fontFamily="@font/bmyeonsung_ttf"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint" />
+<!--
+    <TextView
+        android:id="@+id/et_birth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="350dp"
+        android:background="@color/input_register_bg"
+        android:hint="@string/hint_birth"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/input_register"
+        android:textColorHint="@color/input_register_hint" />-->
+
+    <!--<ImageView
+        android:id="@+id/datePickerLogin"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/calendar2"/>
+-->
+
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="270dp"
+        android:layout_marginLeft="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/button_bg_round2"
+        android:text="@string/btn_register"
+        android:textSize="20sp"
+        android:fontFamily="@font/bmyeonsung_ttf"
+        android:textStyle="bold"
+        android:textColor="@color/dimgray" />
+
+</RelativeLayout>

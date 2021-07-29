@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/floralwhite"
+    tools:context=".AfterFreeMode">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="프리 모드 자세"
+            android:textSize="35sp"
+            android:fontFamily="@font/cafe24simplehae"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="100dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/afm_pose1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="자세 이름"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="80dp"
+            android:fontFamily="@font/cafe24oneprettynight"/>
+
+        <TextView
+            android:id="@+id/afm_percentage1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100%"
+            android:textSize="25sp"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="260dp"
+            android:fontFamily="@font/cafe24oneprettynight"/>
+
+        <TextView
+            android:id="@+id/afm_pose2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="자세 이름"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginTop="310dp"
+            android:layout_marginLeft="80dp"
+            android:fontFamily="@font/cafe24oneprettynight"/>
+
+        <TextView
+            android:id="@+id/afm_percentage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100%"
+            android:textSize="25sp"
+            android:layout_marginTop="310dp"
+            android:layout_marginLeft="260dp"
+            android:fontFamily="@font/cafe24oneprettynight"/>
+
+        <TextView
+            android:id="@+id/afm_pose3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="자세 이름"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginTop="390dp"
+            android:layout_marginLeft="80dp"
+            android:fontFamily="@font/cafe24oneprettynight"/>
+
+        <TextView
+            android:id="@+id/afm_percentage3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100%"
+            android:textSize="25sp"
+            android:layout_marginTop="390dp"
+            android:layout_marginLeft="260dp"
+            android:fontFamily="@font/cafe24oneprettynight"/>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

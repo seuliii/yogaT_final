@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.techtown.example.expandablelistview">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ExpandableListView"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".OpenGallary">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BeforeAfter" />
+        <activity android:name=".Worst3" />
+        <activity android:name=".Top3" />
+        <activity android:name=".Diet" />
+        <activity android:name=".Blood_circulation" />
+        <activity android:name=".BackPainReliever" />
+        <activity android:name=".AfterFreeMode" />
+        <activity android:name=".FreeMode"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".StandingPose"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".SittingPose"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".SinglePose"
+            android:screenOrientation="fullSensor"/>
+        <activity android:name=".RegisterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
